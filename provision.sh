@@ -20,11 +20,8 @@ START_VPN="\
             <shutdown></shutdown>
         </no>
     </message-vpn>
-</rpc>
-\"
+</rpc>\
+"
 
 echo "${CREATE_VPN}" | curl -d @- -u "${CRED}" http://${SOLACE_IP}/SEMP
 echo "${START_VPN}" | curl -d @- -u "${CRED}" http://${SOLACE_IP}/SEMP
-
-
-
