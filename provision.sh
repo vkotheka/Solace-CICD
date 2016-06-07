@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOLACE_IP=52.91.167.19:8080
+SOLACE_IP=52.64.209.238:8080
 CRED=admin:admin
 
 CREATE_VPN="\
